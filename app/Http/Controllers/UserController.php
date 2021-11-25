@@ -15,7 +15,7 @@ class UserController extends Controller
     {
         $name = 'Aldy Victor Rianes';
         $email = 'aldyvictor@gmail.com';
-        $password = Hash::make('12345678');
+        $password = Hash::make('123!45678');
         $role = 'Admin';
 
         DB::beginTransaction();
